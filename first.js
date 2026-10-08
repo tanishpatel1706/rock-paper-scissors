@@ -67,6 +67,23 @@ choices.forEach((choice) => {
 const darkModeBtn = document.getElementById("darkMode");
 
 darkModeBtn.addEventListener("click", function () {
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
+    if (document.body.style.backgroundColor === "white") {
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+    } else {
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "black";
+    }
+});
+
+const resetBtn = document.getElementById("reset");
+
+resetBtn.addEventListener("click", function () {
+    userScore = 0;
+    compScore = 0;
+
+    userScorepara.innerText = 0;
+    compScorepara.innerText = 0;
+
+    msg.innerText = "Choose Your Move !";
 });

@@ -68,4 +68,18 @@ img {
     border-radius: 1rem;
 }
 
-/* Git practice change */
+button {
+    margin-top: 3rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #081b31;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
