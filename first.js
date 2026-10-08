@@ -67,13 +67,7 @@ choices.forEach((choice) => {
 const darkModeBtn = document.getElementById("darkMode");
 
 darkModeBtn.addEventListener("click", function () {
-    if (document.body.style.backgroundColor === "white") {
-        document.body.style.backgroundColor = "black";
-        document.body.style.color = "white";
-    } else {
-        document.body.style.backgroundColor = "white";
-        document.body.style.color = "black";
-    }
+    document.body.classList.toggle("dark-mode");
 });
 
 const resetBtn = document.getElementById("reset");

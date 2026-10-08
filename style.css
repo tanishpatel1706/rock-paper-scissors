@@ -83,3 +83,8 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
