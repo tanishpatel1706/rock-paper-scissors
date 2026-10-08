@@ -63,3 +63,10 @@ choices.forEach((choice) => {
         playGame(userChoice);
     });
 });
+
+const darkModeBtn = document.getElementById("darkMode");
+
+darkModeBtn.addEventListener("click", function () {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+});
