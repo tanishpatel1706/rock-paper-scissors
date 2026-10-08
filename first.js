@@ -63,3 +63,21 @@ choices.forEach((choice) => {
         playGame(userChoice);
     });
 });
+
+const darkModeBtn = document.getElementById("darkMode");
+
+darkModeBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+});
+
+const resetBtn = document.getElementById("reset");
+
+resetBtn.addEventListener("click", function () {
+    userScore = 0;
+    compScore = 0;
+
+    userScorepara.innerText = 0;
+    compScorepara.innerText = 0;
+
+    msg.innerText = "Choose Your Move !";
+});
