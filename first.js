@@ -14,7 +14,7 @@ const genCompChoice = () => {
 };
 
 const drawGame = () => {
-    msg.innerText = "Game was drawn.";
+    msg.innerText = "It's a draw! Try again.";
     msg.style.backgroundColor = "#081b31";
 };
 
