@@ -17,6 +17,7 @@ const drawGame = () => {
     msg.innerText = "Game was drawn.";
     msg.style.backgroundColor = "#081b31";
 };
+// Sound effects will be handled by a separate function.
 
 const showWinner = (userWin, userChoice, compChoice) => {
     if(userWin) {
